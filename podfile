@@ -1,0 +1,8 @@
+
+
+platform :ios, '9.0'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+target 'BWKit' do
+  pod 'iOS-WebP', '~> 0.4'
+end

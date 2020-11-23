@@ -1,0 +1,43 @@
+PODS:
+  - iOS-WebP (0.4):
+    - libwebp (~> 0.4.2)
+  - libwebp (0.4.4):
+    - libwebp/core (= 0.4.4)
+    - libwebp/dec (= 0.4.4)
+    - libwebp/demux (= 0.4.4)
+    - libwebp/dsp (= 0.4.4)
+    - libwebp/enc (= 0.4.4)
+    - libwebp/mux (= 0.4.4)
+    - libwebp/utils (= 0.4.4)
+    - libwebp/webp (= 0.4.4)
+  - libwebp/core (0.4.4):
+    - libwebp/webp
+  - libwebp/dec (0.4.4):
+    - libwebp/core
+  - libwebp/demux (0.4.4):
+    - libwebp/core
+  - libwebp/dsp (0.4.4):
+    - libwebp/core
+  - libwebp/enc (0.4.4):
+    - libwebp/core
+  - libwebp/mux (0.4.4):
+    - libwebp/core
+  - libwebp/utils (0.4.4):
+    - libwebp/core
+  - libwebp/webp (0.4.4)
+
+DEPENDENCIES:
+  - iOS-WebP (~> 0.4)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - iOS-WebP
+    - libwebp
+
+SPEC CHECKSUMS:
+  iOS-WebP: 436d3c506b7587bdef926d1d1c76f8dbf3905edc
+  libwebp: 7d74f1ab887df77f23493ce115c9424fad5411b5
+
+PODFILE CHECKSUM: bd75a6a6b5c3295863b90aa63543919333f95177
+
+COCOAPODS: 1.9.3
