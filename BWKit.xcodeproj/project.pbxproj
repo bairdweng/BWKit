@@ -455,16 +455,16 @@
 		DA1553942567BB63003C22A8 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				DA1553952567BB63003C22A8 /* _YYWebImageSetter.m */,
-				DA1553962567BB63003C22A8 /* UIButton+YYWebImage.h */,
-				DA1553972567BB63003C22A8 /* UIImageView+YYWebImage.h */,
-				DA1553982567BB63003C22A8 /* CALayer+YYWebImage.h */,
-				DA1553992567BB63003C22A8 /* MKAnnotationView+YYWebImage.h */,
 				DA15539A2567BB63003C22A8 /* _YYWebImageSetter.h */,
-				DA15539B2567BB63003C22A8 /* UIButton+YYWebImage.m */,
-				DA15539C2567BB63003C22A8 /* UIImageView+YYWebImage.m */,
-				DA15539D2567BB63003C22A8 /* MKAnnotationView+YYWebImage.m */,
+				DA1553952567BB63003C22A8 /* _YYWebImageSetter.m */,
+				DA1553982567BB63003C22A8 /* CALayer+YYWebImage.h */,
 				DA15539E2567BB63003C22A8 /* CALayer+YYWebImage.m */,
+				DA1553992567BB63003C22A8 /* MKAnnotationView+YYWebImage.h */,
+				DA15539D2567BB63003C22A8 /* MKAnnotationView+YYWebImage.m */,
+				DA1553962567BB63003C22A8 /* UIButton+YYWebImage.h */,
+				DA15539B2567BB63003C22A8 /* UIButton+YYWebImage.m */,
+				DA1553972567BB63003C22A8 /* UIImageView+YYWebImage.h */,
+				DA15539C2567BB63003C22A8 /* UIImageView+YYWebImage.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -472,12 +472,12 @@
 		DA1553A22567BB63003C22A8 /* Text */ = {
 			isa = PBXGroup;
 			children = (
-				DA1553A32567BB63003C22A8 /* YYTextView.m */,
 				DA1553A42567BB63003C22A8 /* Component */,
-				DA1553B72567BB63003C22A8 /* YYLabel.m */,
-				DA1553B82567BB63003C22A8 /* YYTextView.h */,
 				DA1553B92567BB63003C22A8 /* String */,
 				DA1553CC2567BB63003C22A8 /* YYLabel.h */,
+				DA1553B72567BB63003C22A8 /* YYLabel.m */,
+				DA1553B82567BB63003C22A8 /* YYTextView.h */,
+				DA1553A32567BB63003C22A8 /* YYTextView.m */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -485,24 +485,24 @@
 		DA1553A42567BB63003C22A8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
-				DA1553A52567BB63003C22A8 /* YYTextSelectionView.h */,
-				DA1553A62567BB63003C22A8 /* YYTextLine.h */,
-				DA1553A72567BB63003C22A8 /* YYTextMagnifier.m */,
-				DA1553A82567BB63003C22A8 /* YYTextLayout.h */,
-				DA1553A92567BB63003C22A8 /* YYTextKeyboardManager.h */,
-				DA1553AA2567BB63003C22A8 /* YYTextContainerView.m */,
-				DA1553AB2567BB63003C22A8 /* YYTextEffectWindow.m */,
-				DA1553AC2567BB63003C22A8 /* YYTextDebugOption.h */,
-				DA1553AD2567BB63003C22A8 /* YYTextInput.m */,
-				DA1553AE2567BB63003C22A8 /* YYTextLayout.m */,
-				DA1553AF2567BB63003C22A8 /* YYTextMagnifier.h */,
-				DA1553B02567BB63003C22A8 /* YYTextLine.m */,
-				DA1553B12567BB63003C22A8 /* YYTextSelectionView.m */,
-				DA1553B22567BB63003C22A8 /* YYTextEffectWindow.h */,
 				DA1553B32567BB63003C22A8 /* YYTextContainerView.h */,
-				DA1553B42567BB63003C22A8 /* YYTextKeyboardManager.m */,
-				DA1553B52567BB63003C22A8 /* YYTextInput.h */,
+				DA1553AA2567BB63003C22A8 /* YYTextContainerView.m */,
+				DA1553AC2567BB63003C22A8 /* YYTextDebugOption.h */,
 				DA1553B62567BB63003C22A8 /* YYTextDebugOption.m */,
+				DA1553B22567BB63003C22A8 /* YYTextEffectWindow.h */,
+				DA1553AB2567BB63003C22A8 /* YYTextEffectWindow.m */,
+				DA1553B52567BB63003C22A8 /* YYTextInput.h */,
+				DA1553AD2567BB63003C22A8 /* YYTextInput.m */,
+				DA1553A92567BB63003C22A8 /* YYTextKeyboardManager.h */,
+				DA1553B42567BB63003C22A8 /* YYTextKeyboardManager.m */,
+				DA1553A82567BB63003C22A8 /* YYTextLayout.h */,
+				DA1553AE2567BB63003C22A8 /* YYTextLayout.m */,
+				DA1553A62567BB63003C22A8 /* YYTextLine.h */,
+				DA1553B02567BB63003C22A8 /* YYTextLine.m */,
+				DA1553AF2567BB63003C22A8 /* YYTextMagnifier.h */,
+				DA1553A72567BB63003C22A8 /* YYTextMagnifier.m */,
+				DA1553A52567BB63003C22A8 /* YYTextSelectionView.h */,
+				DA1553B12567BB63003C22A8 /* YYTextSelectionView.m */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -616,10 +616,10 @@
 		DA1554092567BB63003C22A8 /* Quartz */ = {
 			isa = PBXGroup;
 			children = (
-				DA15540A2567BB63003C22A8 /* YYCGUtilities.m */,
-				DA15540B2567BB63003C22A8 /* CALayer+YYAdd.m */,
 				DA15540C2567BB63003C22A8 /* CALayer+YYAdd.h */,
+				DA15540B2567BB63003C22A8 /* CALayer+YYAdd.m */,
 				DA15540D2567BB63003C22A8 /* YYCGUtilities.h */,
+				DA15540A2567BB63003C22A8 /* YYCGUtilities.m */,
 			);
 			path = Quartz;
 			sourceTree = "<group>";
@@ -627,30 +627,30 @@
 		DA15540E2567BB63003C22A8 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
-				DA15540F2567BB63003C22A8 /* YYWeakProxy.m */,
-				DA1554102567BB63003C22A8 /* YYAsyncLayer.m */,
-				DA1554112567BB63003C22A8 /* YYKeychain.h */,
-				DA1554122567BB63003C22A8 /* YYDispatchQueuePool.h */,
-				DA1554132567BB63003C22A8 /* YYTransaction.h */,
-				DA1554142567BB63003C22A8 /* YYThreadSafeDictionary.m */,
-				DA1554152567BB63003C22A8 /* YYFileHash.h */,
-				DA1554162567BB63003C22A8 /* YYGestureRecognizer.h */,
-				DA1554172567BB63003C22A8 /* YYSentinel.m */,
-				DA1554182567BB63003C22A8 /* YYReachability.h */,
-				DA1554192567BB63003C22A8 /* YYThreadSafeArray.h */,
-				DA15541A2567BB63003C22A8 /* YYTimer.h */,
 				DA15541B2567BB63003C22A8 /* YYAsyncLayer.h */,
-				DA15541C2567BB63003C22A8 /* YYWeakProxy.h */,
-				DA15541D2567BB63003C22A8 /* YYThreadSafeDictionary.h */,
-				DA15541E2567BB63003C22A8 /* YYTransaction.m */,
+				DA1554102567BB63003C22A8 /* YYAsyncLayer.m */,
+				DA1554122567BB63003C22A8 /* YYDispatchQueuePool.h */,
 				DA15541F2567BB63003C22A8 /* YYDispatchQueuePool.m */,
-				DA1554202567BB63003C22A8 /* YYKeychain.m */,
-				DA1554212567BB63003C22A8 /* YYGestureRecognizer.m */,
+				DA1554152567BB63003C22A8 /* YYFileHash.h */,
 				DA1554222567BB63003C22A8 /* YYFileHash.m */,
-				DA1554232567BB63003C22A8 /* YYTimer.m */,
-				DA1554242567BB63003C22A8 /* YYThreadSafeArray.m */,
+				DA1554162567BB63003C22A8 /* YYGestureRecognizer.h */,
+				DA1554212567BB63003C22A8 /* YYGestureRecognizer.m */,
+				DA1554112567BB63003C22A8 /* YYKeychain.h */,
+				DA1554202567BB63003C22A8 /* YYKeychain.m */,
+				DA1554182567BB63003C22A8 /* YYReachability.h */,
 				DA1554252567BB63003C22A8 /* YYReachability.m */,
 				DA1554262567BB63003C22A8 /* YYSentinel.h */,
+				DA1554172567BB63003C22A8 /* YYSentinel.m */,
+				DA1554192567BB63003C22A8 /* YYThreadSafeArray.h */,
+				DA1554242567BB63003C22A8 /* YYThreadSafeArray.m */,
+				DA15541D2567BB63003C22A8 /* YYThreadSafeDictionary.h */,
+				DA1554142567BB63003C22A8 /* YYThreadSafeDictionary.m */,
+				DA15541A2567BB63003C22A8 /* YYTimer.h */,
+				DA1554232567BB63003C22A8 /* YYTimer.m */,
+				DA1554132567BB63003C22A8 /* YYTransaction.h */,
+				DA15541E2567BB63003C22A8 /* YYTransaction.m */,
+				DA15541C2567BB63003C22A8 /* YYWeakProxy.h */,
+				DA15540F2567BB63003C22A8 /* YYWeakProxy.m */,
 			);
 			path = Utility;
 			sourceTree = "<group>";

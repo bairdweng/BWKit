@@ -11,7 +11,7 @@
 
 #import "YYAsyncLayer.h"
 #import "YYSentinel.h"
-
+// 这里判断是否倒入 YYDispatchQueuePool 队列池
 #if __has_include("YYDispatchQueuePool.h")
 #import "YYDispatchQueuePool.h"
 #else
@@ -118,9 +118,10 @@ static dispatch_queue_t YYAsyncLayerGetReleaseQueue() {
     
     if (async) {
         if (task.willDisplay) task.willDisplay(self);
+        // 计数器，为了避免重复绘制
         YYSentinel *sentinel = _sentinel;
         int32_t value = sentinel.value;
-        BOOL (^isCancelled)() = ^BOOL() {
+        BOOL (^isCancelled)(void) = ^BOOL() {
             return value != sentinel.value;
         };
         CGSize size = self.bounds.size;
